@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #efa5c2, #f1fbffe1, #bbf5e8);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    margin-top: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+@keyframes gradient {
+ 0% {
+   background-position: 0% 50%;
+ }
+ 50% {
+   background-position: 100% 50%;
+ }
+ 100% {
+   background-position: 0% 50%;
+ }
+}
+
+p {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+code {
+    border-style: inset;
+}
+
+div {
+  
+}
