@@ -1,4 +1,4 @@
-***LICENSE***: [**MIT**](./license.md)
+***LICENSE***: [**MIT**](./license)
 # Модуль 6. Старт в JavaScript
 
 Практическое задание на курсе Web-разработчик от SkillFactory.
