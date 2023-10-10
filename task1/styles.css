@@ -5,7 +5,8 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    margin-top: 20%;
+    margin: 0;
+    
   }
   
   @keyframes gradient {
@@ -27,4 +28,18 @@ p {
     border-style: inset;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: rgb(58, 93, 208) rgb(94, 98, 202) rgb(41, 57, 137) ;
+}
+
+div {
+  margin-top: 20%;
+}
+
+a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(2, 24, 2);
 }
